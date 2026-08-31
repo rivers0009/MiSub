@@ -1,0 +1,13 @@
+name = "misub-new"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "MISUB_KV"
+id = "eb8682d8c3af440f9d192b6083e41ec6"
+
+[[d1_databases]]
+binding = "MISUB_DB"
+database_name = "misub"
+database_id = "41969282-269e-49e3-9997-4ce77f7c2e7f"
