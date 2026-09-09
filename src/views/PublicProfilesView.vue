@@ -759,19 +759,19 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
+        background: var(--color-slate-300);
         border-radius: 3px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8;
+        background: var(--color-slate-400);
     }
 
     .dark ::-webkit-scrollbar-thumb {
-        background: #475569;
+        background: var(--color-slate-600);
     }
 
     .dark ::-webkit-scrollbar-thumb:hover {
-        background: #64748b;
+        background: var(--color-slate-500);
     }
 </style>
